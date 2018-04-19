@@ -1,0 +1,45 @@
+nav h1{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+}
+nav{
+  background-color: orange;
+}
+/* canvas {
+  border: 1px solid red;
+} */
+
+body {
+background-color: grey; 
+  /* padding: 200px 0 0 200px; */
+}
+#canvas {
+  background-color: transparent;
+  margin-top: 110px;
+}
+.canvas-div {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  background: url('../images/patioGrass.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* #canvas {
+  /* text-align: center;
+  display: inline; */
+    /* position: absolute; */
+    /* top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+} */ 
+
+.canvas-div {
+  display: flex;
+  justify-content: center;
+}
