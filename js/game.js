@@ -20,7 +20,7 @@ var Bag = function(){
   this.y =  410;//400
   this.width = 50;
   this.height = 50;
-  this.img =  './images/theNinja.png';
+  this.img =  './Images/theNinja.png';
 }
 
 Bag.prototype.draw = function (){

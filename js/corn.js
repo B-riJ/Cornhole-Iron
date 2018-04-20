@@ -5,7 +5,7 @@ window.onload = function() {
   ctx = canvas.getContext('2d');
   var startToss = true;
   // var boardImage = new Image();
-  boardImage.src = "./images/target-board.png";
+  boardImage.src = "./Images/target-board.png";
   
 //global ^ @ game.js
   // drawBoard();
