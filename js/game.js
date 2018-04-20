@@ -3,7 +3,7 @@
 var canvas;
 var ctx;
 var boardImage = new Image();
-
+var theGame;
 
 var Game = function(){
   this.board = {};
@@ -56,13 +56,19 @@ Bag.prototype.shoot = function (){
   } else {
     clearInterval(id);
     that.scoreShot();
+    theGame.bag = new Bag();
+    theGame.bag.draw();
   }
 },50)
+
 }
 
 Bag.prototype.scoreShot = function(){
-if (this.x === Board.x )
-console.log("landed");
+if (this.x>  theGame.board.x && this.x< theGame.board.x+theGame.board.width ){
+  console.log("landed");
+ 
+
+}
 
 // 4 parameters 
 // this.x. + this.x + this.width &&

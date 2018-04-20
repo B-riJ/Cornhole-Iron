@@ -9,7 +9,7 @@ window.onload = function() {
   
 //global ^ @ game.js
   // drawBoard();
-  var theGame = new Game();
+  theGame = new Game();
   theGame.board = new Board();
   theGame.board.draw();
   theGame.board.continuousMovement();

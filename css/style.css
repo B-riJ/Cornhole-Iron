@@ -3,9 +3,16 @@ nav h1{
   margin: 0 auto;
   font-size: 35px;
 }
-nav{
-  background-color: orange;
+nav {
+  background-color: black;
 }
+header {
+  text-align: center;
+  background-image: url("..images/arcade-font-writer.png");
+  /* image: '..images/arcade-font-writer.png'; */
+}
+
+/*background: url('..images/arcade-font-writer.png');
 /* canvas {
   border: 1px solid red;
 } */
