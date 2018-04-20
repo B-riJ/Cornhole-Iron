@@ -8,7 +8,7 @@ nav {
 }
 header {
   text-align: center;
-  background: url('..arcade-font-writer.png');
+  background: url('./Images/arcade-font-writer.png');
   /* image: '..images/arcade-font-writer.png'; */
 }
 .score {
