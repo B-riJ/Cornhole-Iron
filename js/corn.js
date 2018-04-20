@@ -42,6 +42,7 @@ window.onload = function() {
       // ctx.fillText("Corn_toss: " + tossBag.y, 250,60);
       theGame.board.draw();
       theGame.bag.draw();
+      
     }, 100);
   }
   

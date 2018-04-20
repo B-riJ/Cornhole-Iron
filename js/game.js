@@ -4,6 +4,7 @@ var canvas;
 var ctx;
 var boardImage = new Image();
 var theGame;
+var score = 0;
 
 var Game = function(){
   this.board = {};
@@ -63,18 +64,34 @@ Bag.prototype.shoot = function (){
 
 }
 
+// $('.score').text(score)
+
 Bag.prototype.scoreShot = function(){
 if (this.x>  theGame.board.x && this.x< theGame.board.x+theGame.board.width ){
-  console.log("landed");
- 
 
+  if(score <3){
+    $(".score span").text(score)
+    score += 1;
+  // console.log(score);
+  } else {
+    // $(".score span").text(score)    
+    alert("Good job! Your score is: ", score)
+  }
+  
+
+
+
+} 
+ 
 }
+
+
 
 // 4 parameters 
 // this.x. + this.x + this.width &&
 
   // when board and shooter intersect, console log."shoot"
-}
+
 
 
 var Board = function(){
