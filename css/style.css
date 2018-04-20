@@ -13,9 +13,6 @@ header {
   color: white;
   font-size: 24px;
 
-  /* bottom: 100px; */
-  /* left: 100px; */
-  /* float:left; */
 }
 
 
@@ -28,7 +25,7 @@ background-color: rgb(36, 62, 167);
   margin-top: 110px;
 }
 .canvas-div {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   background-color: lightgrey;
   background: url('../Images/patioGrass.JPG');
