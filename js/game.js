@@ -74,7 +74,6 @@ if (this.x>  theGame.board.x && this.x< theGame.board.x+theGame.board.width ){
     score += 1;
   // console.log(score);
   } else {
-    // $(".score span").text(score)    
     alert("Good job! Your score is: ", score)
   }
   
